@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import'../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.bg-danger,.btn-danger{
+    background-color:rgba(196,31,62,255) !important;  
+}
+label{
+    margin-bottom: 5px;
+}
+/*#c41f3e*/

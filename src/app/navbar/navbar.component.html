@@ -1,0 +1,45 @@
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="home">MyBlog</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" routerLink="home">Home</a>
+        <a class="nav-link" routerLink="about">About</a>
+        <a class="nav-link" routerLink="contact">Contactus</a>
+        <a class="nav-link" routerLink="fqas">FAQ's</a>
+      </div>
+    </div>
+  </div>
+</nav> -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+  <div class="container-fluid">
+      <div class="navbar-brand" routerLink="Register"></div>
+      <div class="navbar-nav">
+          <!-- <a class="nav-link" current="Register" routerLink="Register">Registration</a> -->
+          <!-- <a class="nav-link" routerLink="Tq">Thank You</a> -->
+          <select class="language-dropdown form-select">
+                  <option *ngFor="let lang of lang">{{lang}}</option>
+          </select>
+      </div>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+      <div class="navbar-brand">
+          <!-- <img width="150" height="40" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/48/CIBC_logo_2021.svg/640px-CIBC_logo_2021.svg.png"> -->
+          <h5 class="display-5" routerLink="registration">Abroad immigation serives</h5>
+          <!-- <label>Fly Abrod with us</label> -->
+      </div>
+  </div>
+</nav>
+
+<hr size="4" color="black">
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
